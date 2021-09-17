@@ -28,9 +28,7 @@ class CircularQueue:
       self.head = (self.head+1) % self.maxSize
       return data
 
-# input 7 for the size or anything else
-size = input("Enter the size of the Circular Queue")
-q = CircularQueue(int(size))
+q = CircularQueue(7)
 
 # change the enqueue and dequeue statements as you want
 print(q.enqueue(10))
